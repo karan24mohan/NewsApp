@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.about {
+  margin-top: 10%;
+}
+
+.about p {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
 }
